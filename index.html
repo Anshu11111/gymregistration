@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym registration</title>
+</head>
+<body>
+    <div class="container">
+        <div class="items" id="item1">
+            <div class="navbar">
+                <div class="first">
+                    <h1>Bhosad's Gym</h1>
+                </div>
+                <div class="second">
+                    <ul>
+                        <li>Home</li>
+                        <li>My Progress</li>
+                        <li>Random name</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="items" id="item2">
+            <img src="./imags/pexels-photo-1431282.jpeg" alt="gym">
+        </div>
+        <div class="items" id="item3">
+            <div class="heading">
+            <h1 id="top">Register to become a Member</h1>
+            <p>we need your details to complete your registration</p>
+        </div>
+<form action="">
+    <div class="name">
+        <p>FULL NAME</p>
+        <input type="text" placeholder="Full Name">
+    </div>
+    <div class="email">
+        <p>EMAIL</p>
+        <input type="email" placeholder="Email">
+
+        <p id="mobile">MOBILE</p>
+        <input type="text"  placeholder="+91">
+    </div>
+
+    <div class="gender">
+       <p>GENDER</p>
+        <select name="gender" id="">
+            <option value="">MALE</option>
+            <option value="">FEMALE</option>
+        </select>
+  
+    </div>
+    <p id="plan">CHOOSE A PLAN</p>
+    <div class="plan">
+        <div id="radio">
+           <input type="radio" id="training" name="training" value="Basic Training">
+           <div>
+            <p class="contnt">Basic Training</p>
+            <p>$45 per month</p>
+           </div>
+          
+        </div>
+        <div id="radio">
+            <input type="radio" id="training" name="training" value="Super Fitness Training" >
+            <div>
+                <p class="contnt">Super Fitness Training</p>
+                <p>$300 per month</p>
+            </div>
+        
+       </div> 
+    </div>
+    <div class="box">
+        <input type="checkbox" id="check">
+        <p class="bx">I have read and agree to the terms and privacy policy </p>
+    </div>
+    <div class="btn">
+        <button>Continue Registration</button>
+    </div>
+
+</form>
+
+        </div>
+    </div>
+
+</body>
+</html>

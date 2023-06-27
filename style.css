@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 500px 1fr;
+    /* column-gap: 5px; */
+    /* row-gap: 5px; */
+    padding: 2%;
+    color: white;
+
+
+
+}
+.first h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(114, 119, 119);
+}
+
+.items {
+    /* background-color: blueviolet; */
+    height: 50px;
+}
+
+#item1 {
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#item2 {
+    height: 500px;
+
+}
+
+#item3 {
+    height: 500px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25%;
+    padding-top: 0%;
+
+}
+
+#check {
+    width: 20px;
+}
+
+ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+
+}
+
+.plan {
+    display: flex;
+    margin-top: 2%;
+
+}
+
+#radio {
+    display: flex;
+    align-items: center;
+}
+
+.contnt {
+    width: 200px;
+}
+
+#item3 {
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form {
+    background-color: black;
+    padding: 7%;
+    box-shadow: 10px 10px 10px  rgb(90, 87, 87);;
+
+}
+
+input {
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid black;
+
+}
+
+.email {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-around;
+}
+
+.gender {
+    display: flex;
+    margin-top: 2%;
+}
+
+.heading {
+    padding: 2%;
+    text-align: center;
+    color: black;
+    
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.btn {
+    padding: 3%;
+    width: 50%;
+    margin: auto;
+}
+
+button {
+
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 3px;
+
+
+
+}
+
+#mobile {
+
+    margin-left: 10px;
+}
+
+#plan {
+    margin-top: 2%;
+}
+#top{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
